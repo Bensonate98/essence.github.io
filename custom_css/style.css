@@ -1,0 +1,129 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Golos+Text&display=swap');
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+    font-family: 'Golos Text', sans-serif;
+  }
+
+  .top-nav {
+    background-color: #0F4229 !important;
+    height: 3rem;
+    position: sticky;
+  }
+
+  .top-nav span {
+    color: white;
+}
+
+
+
+.top-nav .col-lg-7 {
+  display: inline-flex;
+  justify-content: flex-start;
+  
+}
+
+.top-nav .col-lg-5 {
+  display: inline-flex;
+  justify-content: flex-end;
+  align-content: center;
+}
+
+
+/*Navigation Bar*/
+
+.navbar {
+  position: sticky;
+  background-color: white;
+    
+}
+
+.navbar-nav a {
+    color: #009966;
+    font-weight: 600;
+}
+
+ .navbar-nav a:hover {
+    color:  #0F4229 !important;
+}
+
+.navbar-toggler{
+
+    border: none;
+    outline: none;
+}
+
+
+  /*carousel slide*/
+.c-item{
+  height: 28rem;
+
+}
+
+.c-img{
+  object-fit: cover;
+  filter: brightness(0.3);
+  height: 100%;
+}
+
+/*about*/
+
+.about h2 {
+  font-weight: 700;
+  color: rgb(15, 66, 41);
+}
+
+#hr1{
+  width: 100px;
+  margin: auto;
+  border-top: 3px solid #012816;
+}
+
+#hr2{
+  width: 50px;
+  margin: auto;
+  margin-top: 3px;
+  border-top: 3px solid #012816;
+
+}
+
+.about p {
+  font-size: larger;
+  font-weight: 500;
+}
+
+.about .items {
+  width: 21rem;
+}
+
+.about .card {
+  border:none;
+  box-shadow: -1px 2px 20px -6px rgba(15,84,19,0.73);
+-webkit-box-shadow: -1px 2px 20px -6px rgba(15,84,19,0.73);
+-moz-box-shadow: -1px 2px 20px -6px rgba(15,84,19,0.73);
+}
+
+.btn {
+  border-radius: 15px;
+}
+
+.btn:hover{
+  filter: brightness(0.8);
+}
+
+
+
+
+
+
+
+  
+
+
+
+
